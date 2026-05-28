@@ -178,3 +178,7 @@ SIMPLE_JWT = {
 
 USE_TZ = True
 TIME_ZONE = "UTC"
+
+CSRF_TRUSTED_ORIGINS = [
+    "https://linkedin-backend-q7sx.onrender.com",
+]
